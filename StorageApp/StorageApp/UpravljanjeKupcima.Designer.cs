@@ -38,7 +38,11 @@
             this.button5 = new System.Windows.Forms.Button();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.button4 = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.label5 = new System.Windows.Forms.Label();
+=======
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+>>>>>>> origin/master
             this.SuspendLayout();
             // 
             // label1
@@ -83,7 +87,12 @@
             // 
             // button1
             // 
+<<<<<<< HEAD
             this.button1.Location = new System.Drawing.Point(140, 170);
+=======
+            this.button1.Location = new System.Drawing.Point(187, 209);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> origin/master
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 4;
@@ -92,7 +101,12 @@
             // 
             // button2
             // 
+<<<<<<< HEAD
             this.button2.Location = new System.Drawing.Point(221, 170);
+=======
+            this.button2.Location = new System.Drawing.Point(295, 209);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> origin/master
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 5;
@@ -101,7 +115,12 @@
             // 
             // button3
             // 
+<<<<<<< HEAD
             this.button3.Location = new System.Drawing.Point(302, 170);
+=======
+            this.button3.Location = new System.Drawing.Point(403, 209);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> origin/master
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 6;
@@ -110,7 +129,12 @@
             // 
             // button5
             // 
+<<<<<<< HEAD
             this.button5.Location = new System.Drawing.Point(23, 308);
+=======
+            this.button5.Location = new System.Drawing.Point(31, 379);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> origin/master
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 7;
@@ -120,7 +144,12 @@
             // checkedListBox1
             // 
             this.checkedListBox1.FormattingEnabled = true;
+<<<<<<< HEAD
             this.checkedListBox1.Location = new System.Drawing.Point(176, 237);
+=======
+            this.checkedListBox1.Location = new System.Drawing.Point(235, 292);
+            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> origin/master
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(120, 79);
             this.checkedListBox1.TabIndex = 8;
@@ -135,6 +164,7 @@
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
             // label5
             // 
             this.label5.AutoSize = true;
@@ -143,13 +173,28 @@
             this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 10;
             this.label5.Text = "label5";
+=======
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(138, 26);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(522, 406);
+            this.groupBox1.TabIndex = 10;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+>>>>>>> origin/master
             // 
             // UpravljanjeKupcima
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(576, 368);
             this.Controls.Add(this.label5);
+=======
+            this.ClientSize = new System.Drawing.Size(768, 453);
+            this.Controls.Add(this.groupBox1);
+>>>>>>> origin/master
             this.Controls.Add(this.button4);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.button5);
@@ -160,7 +205,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+<<<<<<< HEAD
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+=======
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> origin/master
             this.Name = "UpravljanjeKupcima";
             this.Text = "UpravljanjeKupcima";
             this.ResumeLayout(false);
@@ -181,6 +230,10 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Button button4;
+<<<<<<< HEAD
         private System.Windows.Forms.Label label5;
+=======
+        private System.Windows.Forms.GroupBox groupBox1;
+>>>>>>> origin/master
     }
 }
