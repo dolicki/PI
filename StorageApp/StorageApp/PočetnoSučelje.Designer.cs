@@ -44,7 +44,11 @@
             this.Skladišta = new System.Windows.Forms.Button();
             this.dodaj = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+
             this.button1 = new System.Windows.Forms.Button();
+
+            this.Ursus = new System.Windows.Forms.Label();
+
             ((System.ComponentModel.ISupportInitialize)(this.evidencijaSkladista)).BeginInit();
             this.SuspendLayout();
             // 
@@ -215,6 +219,7 @@
             this.comboBox2.Size = new System.Drawing.Size(92, 21);
             this.comboBox2.TabIndex = 15;
             // 
+
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(636, 119);
@@ -224,13 +229,28 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+
+            // Ursus
+            // 
+            this.Ursus.AutoSize = true;
+            this.Ursus.Location = new System.Drawing.Point(572, 181);
+            this.Ursus.Name = "Ursus";
+            this.Ursus.Size = new System.Drawing.Size(46, 17);
+            this.Ursus.TabIndex = 16;
+            this.Ursus.Text = "label2";
+
             // 
             // PočetnoSučelje
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+
             this.ClientSize = new System.Drawing.Size(754, 483);
             this.Controls.Add(this.button1);
+
+            this.ClientSize = new System.Drawing.Size(1005, 594);
+            this.Controls.Add(this.Ursus);
+
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.dodaj);
             this.Controls.Add(this.Skladišta);
@@ -276,6 +296,10 @@
         private System.Windows.Forms.Button Skladišta;
         private System.Windows.Forms.Button dodaj;
         private System.Windows.Forms.ComboBox comboBox2;
+
         private System.Windows.Forms.Button button1;
+
+        private System.Windows.Forms.Label Ursus;
+
     }
 }
