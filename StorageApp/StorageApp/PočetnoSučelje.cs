@@ -22,5 +22,11 @@ namespace StorageApp
             UpravljanjeSkladistima fromaSkladista = new UpravljanjeSkladistima();
             fromaSkladista.ShowDialog();
         }
+
+        private void otpremnice_Click(object sender, EventArgs e)
+        {
+            Otpremnica formaOtpremnica = new Otpremnica();
+            formaOtpremnica.ShowDialog();
+        }
     }
 }

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Otpremnica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Otpremnica.Designer.cs">
+      <DependentUpon>Otpremnica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Prijava.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     <Compile Include="UpravljanjeSkladistima.Designer.cs">
       <DependentUpon>UpravljanjeSkladistima.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Otpremnica.resx">
+      <DependentUpon>Otpremnica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PočetnoSučelje.resx">
       <DependentUpon>PočetnoSučelje.cs</DependentUpon>
     </EmbeddedResource>
