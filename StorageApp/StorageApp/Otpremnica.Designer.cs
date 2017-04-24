@@ -30,6 +30,7 @@
         {
             this.desije = new System.Windows.Forms.Button();
             this.sadasfa = new System.Windows.Forms.ComboBox();
+            this.fdsf = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // desije
@@ -44,16 +45,26 @@
             // sadasfa
             // 
             this.sadasfa.FormattingEnabled = true;
-            this.sadasfa.Location = new System.Drawing.Point(62, 111);
+            this.sadasfa.Location = new System.Drawing.Point(72, 115);
             this.sadasfa.Name = "sadasfa";
             this.sadasfa.Size = new System.Drawing.Size(121, 21);
             this.sadasfa.TabIndex = 1;
+            // 
+            // fdsf
+            // 
+            this.fdsf.Location = new System.Drawing.Point(162, 58);
+            this.fdsf.Name = "fdsf";
+            this.fdsf.Size = new System.Drawing.Size(75, 23);
+            this.fdsf.TabIndex = 2;
+            this.fdsf.Text = "button1";
+            this.fdsf.UseVisualStyleBackColor = true;
             // 
             // s
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.fdsf);
             this.Controls.Add(this.sadasfa);
             this.Controls.Add(this.desije);
             this.Name = "s";
@@ -66,5 +77,6 @@
 
         private System.Windows.Forms.Button desije;
         private System.Windows.Forms.ComboBox sadasfa;
+        private System.Windows.Forms.Button fdsf;
     }
 }
