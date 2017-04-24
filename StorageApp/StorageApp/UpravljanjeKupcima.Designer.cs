@@ -35,13 +35,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-<<<<<<< HEAD
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-=======
+
             this.button5 = new System.Windows.Forms.Button();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.button4 = new System.Windows.Forms.Button();
->>>>>>> origin/master
+
             this.SuspendLayout();
             // 
             // label1
@@ -112,15 +110,9 @@
             // 
             // checkBox1
             // 
-<<<<<<< HEAD
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(302, 199);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 7;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-=======
+
+           
+
             this.button5.Location = new System.Drawing.Point(31, 379);
             this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
@@ -137,7 +129,7 @@
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(159, 106);
             this.checkedListBox1.TabIndex = 8;
->>>>>>> origin/master
+
             // 
             // button4
             // 
@@ -152,15 +144,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(576, 368);
-            this.Controls.Add(this.checkBox1);
-=======
+
+        
             this.ClientSize = new System.Drawing.Size(768, 453);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.button5);
->>>>>>> origin/master
+
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -168,11 +158,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-<<<<<<< HEAD
-            this.Margin = new System.Windows.Forms.Padding(2);
-=======
+
+
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> origin/master
+
             this.Name = "UpravljanjeKupcima";
             this.Text = "UpravljanjeKupcima";
             this.ResumeLayout(false);
@@ -189,12 +178,10 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-<<<<<<< HEAD
-        private System.Windows.Forms.CheckBox checkBox1;
-=======
+
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Button button4;
->>>>>>> origin/master
+
     }
 }
