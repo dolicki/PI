@@ -16,5 +16,10 @@ namespace StorageApp
         {
             InitializeComponent();
         }
+
+        private void fdsf_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
