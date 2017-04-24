@@ -44,6 +44,7 @@
             this.Skladišta = new System.Windows.Forms.Button();
             this.dodaj = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.Ursus = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.evidencijaSkladista)).BeginInit();
             this.SuspendLayout();
             // 
@@ -211,11 +212,21 @@
             this.comboBox2.Size = new System.Drawing.Size(121, 24);
             this.comboBox2.TabIndex = 15;
             // 
+            // Ursus
+            // 
+            this.Ursus.AutoSize = true;
+            this.Ursus.Location = new System.Drawing.Point(572, 181);
+            this.Ursus.Name = "Ursus";
+            this.Ursus.Size = new System.Drawing.Size(46, 17);
+            this.Ursus.TabIndex = 16;
+            this.Ursus.Text = "label2";
+            // 
             // PočetnoSučelje
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1005, 594);
+            this.Controls.Add(this.Ursus);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.dodaj);
             this.Controls.Add(this.Skladišta);
@@ -260,5 +271,6 @@
         private System.Windows.Forms.Button Skladišta;
         private System.Windows.Forms.Button dodaj;
         private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label Ursus;
     }
 }
