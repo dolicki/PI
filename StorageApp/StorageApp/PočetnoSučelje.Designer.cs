@@ -44,11 +44,9 @@
             this.Skladišta = new System.Windows.Forms.Button();
             this.dodaj = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-
             this.button1 = new System.Windows.Forms.Button();
-
             this.Ursus = new System.Windows.Forms.Label();
-
+            this.listBox1 = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.evidencijaSkladista)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,7 +58,7 @@
             "Skladište2",
             "Skladište3"});
             this.comboBox1.Location = new System.Drawing.Point(104, 30);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(146, 21);
             this.comboBox1.TabIndex = 0;
@@ -79,7 +77,7 @@
             // artikli
             // 
             this.artikli.Location = new System.Drawing.Point(18, 176);
-            this.artikli.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.artikli.Margin = new System.Windows.Forms.Padding(2);
             this.artikli.Name = "artikli";
             this.artikli.Size = new System.Drawing.Size(105, 37);
             this.artikli.TabIndex = 2;
@@ -89,7 +87,7 @@
             // kupci
             // 
             this.kupci.Location = new System.Drawing.Point(490, 78);
-            this.kupci.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.kupci.Margin = new System.Windows.Forms.Padding(2);
             this.kupci.Name = "kupci";
             this.kupci.Size = new System.Drawing.Size(105, 37);
             this.kupci.TabIndex = 3;
@@ -99,7 +97,7 @@
             // medjuskladisnice
             // 
             this.medjuskladisnice.Location = new System.Drawing.Point(18, 425);
-            this.medjuskladisnice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.medjuskladisnice.Margin = new System.Windows.Forms.Padding(2);
             this.medjuskladisnice.Name = "medjuskladisnice";
             this.medjuskladisnice.Size = new System.Drawing.Size(105, 37);
             this.medjuskladisnice.TabIndex = 4;
@@ -109,7 +107,7 @@
             // primke
             // 
             this.primke.Location = new System.Drawing.Point(18, 362);
-            this.primke.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.primke.Margin = new System.Windows.Forms.Padding(2);
             this.primke.Name = "primke";
             this.primke.Size = new System.Drawing.Size(105, 37);
             this.primke.TabIndex = 5;
@@ -119,7 +117,7 @@
             // otpremnice
             // 
             this.otpremnice.Location = new System.Drawing.Point(18, 238);
-            this.otpremnice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.otpremnice.Margin = new System.Windows.Forms.Padding(2);
             this.otpremnice.Name = "otpremnice";
             this.otpremnice.Size = new System.Drawing.Size(105, 37);
             this.otpremnice.TabIndex = 6;
@@ -130,7 +128,7 @@
             // Izdatnice
             // 
             this.Izdatnice.Location = new System.Drawing.Point(18, 299);
-            this.Izdatnice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Izdatnice.Margin = new System.Windows.Forms.Padding(2);
             this.Izdatnice.Name = "Izdatnice";
             this.Izdatnice.Size = new System.Drawing.Size(105, 37);
             this.Izdatnice.TabIndex = 7;
@@ -140,7 +138,7 @@
             // zaposlenici
             // 
             this.zaposlenici.Location = new System.Drawing.Point(620, 77);
-            this.zaposlenici.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.zaposlenici.Margin = new System.Windows.Forms.Padding(2);
             this.zaposlenici.Name = "zaposlenici";
             this.zaposlenici.Size = new System.Drawing.Size(105, 37);
             this.zaposlenici.TabIndex = 8;
@@ -150,7 +148,7 @@
             // dobavljaci
             // 
             this.dobavljaci.Location = new System.Drawing.Point(364, 76);
-            this.dobavljaci.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dobavljaci.Margin = new System.Windows.Forms.Padding(2);
             this.dobavljaci.Name = "dobavljaci";
             this.dobavljaci.Size = new System.Drawing.Size(105, 37);
             this.dobavljaci.TabIndex = 9;
@@ -161,7 +159,7 @@
             // 
             this.evidencijaSkladista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.evidencijaSkladista.Location = new System.Drawing.Point(158, 176);
-            this.evidencijaSkladista.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.evidencijaSkladista.Margin = new System.Windows.Forms.Padding(2);
             this.evidencijaSkladista.Name = "evidencijaSkladista";
             this.evidencijaSkladista.RowTemplate.Height = 24;
             this.evidencijaSkladista.Size = new System.Drawing.Size(568, 285);
@@ -170,7 +168,7 @@
             // Odjava
             // 
             this.Odjava.Location = new System.Drawing.Point(674, 24);
-            this.Odjava.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Odjava.Margin = new System.Windows.Forms.Padding(2);
             this.Odjava.Name = "Odjava";
             this.Odjava.Size = new System.Drawing.Size(51, 25);
             this.Odjava.TabIndex = 11;
@@ -191,7 +189,7 @@
             // Skladišta
             // 
             this.Skladišta.Location = new System.Drawing.Point(237, 76);
-            this.Skladišta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Skladišta.Margin = new System.Windows.Forms.Padding(2);
             this.Skladišta.Name = "Skladišta";
             this.Skladišta.Size = new System.Drawing.Size(105, 37);
             this.Skladišta.TabIndex = 13;
@@ -204,7 +202,7 @@
             this.dodaj.BackgroundImage = global::StorageApp.Properties.Resources.add;
             this.dodaj.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.dodaj.Location = new System.Drawing.Point(158, 142);
-            this.dodaj.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dodaj.Margin = new System.Windows.Forms.Padding(2);
             this.dodaj.Name = "dodaj";
             this.dodaj.Size = new System.Drawing.Size(26, 28);
             this.dodaj.TabIndex = 14;
@@ -214,12 +212,11 @@
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(264, 142);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(92, 21);
             this.comboBox2.TabIndex = 15;
             // 
-
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(636, 119);
@@ -229,28 +226,32 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-
+            // 
             // Ursus
             // 
             this.Ursus.AutoSize = true;
             this.Ursus.Location = new System.Drawing.Point(572, 181);
             this.Ursus.Name = "Ursus";
-            this.Ursus.Size = new System.Drawing.Size(46, 17);
+            this.Ursus.Size = new System.Drawing.Size(35, 13);
             this.Ursus.TabIndex = 16;
             this.Ursus.Text = "label2";
-
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(411, 142);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(120, 95);
+            this.listBox1.TabIndex = 17;
             // 
             // PočetnoSučelje
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-
-            this.ClientSize = new System.Drawing.Size(754, 483);
-            this.Controls.Add(this.button1);
-
             this.ClientSize = new System.Drawing.Size(1005, 594);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Ursus);
-
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.dodaj);
             this.Controls.Add(this.Skladišta);
@@ -267,7 +268,7 @@
             this.Controls.Add(this.artikli);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "PočetnoSučelje";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StorageApp";
@@ -300,6 +301,6 @@
         private System.Windows.Forms.Button button1;
 
         private System.Windows.Forms.Label Ursus;
-
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
