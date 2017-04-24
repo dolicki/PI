@@ -28,5 +28,15 @@ namespace StorageApp
             Otpremnica formaOtpremnica = new Otpremnica();
             formaOtpremnica.ShowDialog();
         }
+
+        private void PočetnoSučelje_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
