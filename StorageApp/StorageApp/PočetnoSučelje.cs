@@ -12,6 +12,7 @@ namespace StorageApp
 {
     public partial class PočetnoSučelje : Form
     {
+        private int odabir;
         public PočetnoSučelje()
         {
             InitializeComponent();
@@ -23,20 +24,29 @@ namespace StorageApp
             fromaSkladista.ShowDialog();
         }
 
-        private void otpremnice_Click(object sender, EventArgs e)
+        private void kupci_Click(object sender, EventArgs e)
         {
-            Otpremnica formaOtpremnica = new Otpremnica();
-            formaOtpremnica.ShowDialog();
+            UpravljanjeKupcima formaKupci = new UpravljanjeKupcima();
+            formaKupci.ShowDialog();
         }
 
-        private void PočetnoSučelje_Load(object sender, EventArgs e)
+        private void artikli_Click(object sender, EventArgs e)
         {
-
+            odabir = 0;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void medjuskladisnice_Click(object sender, EventArgs e)
         {
+            odabir = 4;
+        }
 
+        private void dodaj_Click(object sender, EventArgs e)
+        {
+            if (odabir == 4)
+            {
+                Meduskladisnica formaMeduskladisnica = new Meduskladisnica();
+                formaMeduskladisnica.ShowDialog();
+            }
         }
     }
 }

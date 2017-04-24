@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Otpremnica.cs">
+    <Compile Include="AzuriranjeMeduskladisnice.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Otpremnica.Designer.cs">
-      <DependentUpon>Otpremnica.cs</DependentUpon>
+    <Compile Include="AzuriranjeMeduskladisnice.Designer.cs">
+      <DependentUpon>AzuriranjeMeduskladisnice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Meduskladisnica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Meduskladisnica.Designer.cs">
+      <DependentUpon>Meduskladisnica.cs</DependentUpon>
     </Compile>
     <Compile Include="Prijava.cs">
       <SubType>Form</SubType>
@@ -66,14 +72,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpravljanjeKupcima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpravljanjeKupcima.Designer.cs">
+      <DependentUpon>UpravljanjeKupcima.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpravljanjeSkladistima.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UpravljanjeSkladistima.Designer.cs">
       <DependentUpon>UpravljanjeSkladistima.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Otpremnica.resx">
-      <DependentUpon>Otpremnica.cs</DependentUpon>
+    <EmbeddedResource Include="AzuriranjeMeduskladisnice.resx">
+      <DependentUpon>AzuriranjeMeduskladisnice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Meduskladisnica.resx">
+      <DependentUpon>Meduskladisnica.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PočetnoSučelje.resx">
       <DependentUpon>PočetnoSučelje.cs</DependentUpon>
@@ -85,6 +100,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpravljanjeKupcima.resx">
+      <DependentUpon>UpravljanjeKupcima.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpravljanjeSkladistima.resx">
       <DependentUpon>UpravljanjeSkladistima.cs</DependentUpon>
@@ -106,6 +124,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
