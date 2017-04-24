@@ -48,5 +48,11 @@ namespace StorageApp
                 formaMeduskladisnica.ShowDialog();
             }
         }
+
+        private void otpremnice_Click(object sender, EventArgs e)
+        {
+            s formaOtpremnica = new s();
+            formaOtpremnica.ShowDialog();
+        }
     }
 }

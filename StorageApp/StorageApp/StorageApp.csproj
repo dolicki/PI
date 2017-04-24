@@ -58,6 +58,12 @@
     <Compile Include="Meduskladisnica.Designer.cs">
       <DependentUpon>Meduskladisnica.cs</DependentUpon>
     </Compile>
+    <Compile Include="Otpremnica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Otpremnica.Designer.cs">
+      <DependentUpon>Otpremnica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Prijava.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Meduskladisnica.resx">
       <DependentUpon>Meduskladisnica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Otpremnica.resx">
+      <DependentUpon>Otpremnica.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PočetnoSučelje.resx">
       <DependentUpon>PočetnoSučelje.cs</DependentUpon>
