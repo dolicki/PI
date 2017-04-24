@@ -46,30 +46,58 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Prijava.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Prijava.Designer.cs">
+      <DependentUpon>Prijava.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PočetnoSučelje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PočetnoSučelje.Designer.cs">
+      <DependentUpon>PočetnoSučelje.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="UpravljanjeKupcima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpravljanjeKupcima.Designer.cs">
+      <DependentUpon>UpravljanjeKupcima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpravljanjeSkladistima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpravljanjeSkladistima.Designer.cs">
+      <DependentUpon>UpravljanjeSkladistima.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PočetnoSučelje.resx">
+      <DependentUpon>PočetnoSučelje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prijava.resx">
+      <DependentUpon>Prijava.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="UpravljanjeKupcima.resx">
+      <DependentUpon>UpravljanjeKupcima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpravljanjeSkladistima.resx">
+      <DependentUpon>UpravljanjeSkladistima.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>

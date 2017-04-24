@@ -16,7 +16,15 @@ namespace StorageApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Prijava formaPrijava = new Prijava();
+            if (formaPrijava.ShowDialog() == DialogResult.OK)
+            {
+                Application.Run(new PočetnoSučelje());
+            }
+            else
+            {
+                Application.Exit();
+            }
         }
     }
 }

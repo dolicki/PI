@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StorageApp
 {
-    public partial class Form1 : Form
+    public partial class UpravljanjeKupcima : Form
     {
-        public Form1()
+        public UpravljanjeKupcima()
         {
             InitializeComponent();
         }
