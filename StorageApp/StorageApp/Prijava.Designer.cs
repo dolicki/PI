@@ -83,7 +83,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(329, 253);
+            this.ClientSize = new System.Drawing.Size(329, 246);
             this.Controls.Add(this.lozinka);
             this.Controls.Add(this.korIme);
             this.Controls.Add(this.unosPW);
