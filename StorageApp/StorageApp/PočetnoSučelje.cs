@@ -13,6 +13,8 @@ namespace StorageApp
     public partial class PočetnoSučelje : Form
     {
         private int odabir;
+        private DataGridViewRow redPodataka;
+
         public PočetnoSučelje()
         {
             InitializeComponent();
@@ -35,8 +37,24 @@ namespace StorageApp
             odabir = 0;
         }
 
+        private void otpremnice_Click(object sender, EventArgs e)
+        {
+            odabir = 1;
+        }
+
+        private void izdatnice_Click(object sender, EventArgs e)
+        {
+            odabir = 2;
+        }
+
+        private void primke_Click(object sender, EventArgs e)
+        {
+            odabir = 3;
+        }
+
         private void medjuskladisnice_Click(object sender, EventArgs e)
         {
+            this.evidencijaSkladista.Rows.Add("1", "18.05.1996", "1","2");
             odabir = 4;
         }
 
@@ -49,10 +67,20 @@ namespace StorageApp
             }
         }
 
-        private void otpremnice_Click(object sender, EventArgs e)
+        private void evidencijaSkladista_SelectionChanged(object sender, EventArgs e)
         {
-            s formaOtpremnica = new s();
-            formaOtpremnica.ShowDialog();
+            int index = evidencijaSkladista.CurrentCell.RowIndex;
+            redPodataka = evidencijaSkladista.Rows[index];
+        }
+
+        private void pregled_Click(object sender, EventArgs e)
+        {
+            if(odabir == 4)
+            {
+                AzuriranjeMeduskladisnice formaAzurirajMeduskladisnice = new AzuriranjeMeduskladisnice();
+                formaAzurirajMeduskladisnice.preuzmiPodatke(redPodataka);
+                formaAzurirajMeduskladisnice.ShowDialog();
+            }
         }
     }
 }

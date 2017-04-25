@@ -43,6 +43,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.obrisi = new System.Windows.Forms.Button();
+            this.unesi = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,7 +141,7 @@
             // 
             // dodaj
             // 
-            this.dodaj.Location = new System.Drawing.Point(250, 261);
+            this.dodaj.Location = new System.Drawing.Point(250, 266);
             this.dodaj.Name = "dodaj";
             this.dodaj.Size = new System.Drawing.Size(86, 28);
             this.dodaj.TabIndex = 13;
@@ -169,18 +170,28 @@
             // 
             // obrisi
             // 
-            this.obrisi.Location = new System.Drawing.Point(342, 261);
+            this.obrisi.Location = new System.Drawing.Point(342, 266);
             this.obrisi.Name = "obrisi";
             this.obrisi.Size = new System.Drawing.Size(83, 28);
             this.obrisi.TabIndex = 16;
             this.obrisi.Text = "Obriši";
             this.obrisi.UseVisualStyleBackColor = true;
             // 
+            // unesi
+            // 
+            this.unesi.Location = new System.Drawing.Point(441, 550);
+            this.unesi.Name = "unesi";
+            this.unesi.Size = new System.Drawing.Size(94, 34);
+            this.unesi.TabIndex = 35;
+            this.unesi.Text = "Unesi";
+            this.unesi.UseVisualStyleBackColor = true;
+            // 
             // Meduskladisnica
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(572, 568);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.ClientSize = new System.Drawing.Size(572, 592);
+            this.Controls.Add(this.unesi);
             this.Controls.Add(this.obrisi);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -197,7 +208,8 @@
             this.Controls.Add(this.unosIzlaznoSkl);
             this.Controls.Add(this.izlaznoSkl);
             this.Name = "Meduskladisnica";
-            this.Text = "Međuskladišnica";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Dodaj novu međuskladišnica";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -221,5 +233,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button obrisi;
+        private System.Windows.Forms.Button unesi;
     }
 }

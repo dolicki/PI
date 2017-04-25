@@ -16,5 +16,10 @@ namespace StorageApp
         {
             InitializeComponent();
         }
+
+        public void preuzmiPodatke(DataGridViewRow redPodataka)
+        {
+
+        }
     }
 }
